@@ -32,12 +32,11 @@ img{
 .wrapper{
     width: 1000px;
     margin-bottom: 40px;
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
+    z-index: 1;
 
 }
 #site-header{
@@ -88,32 +87,22 @@ img{
 
 }
 main{
+    margin-top: -45px;
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 55%;
 
 
-
-
-    /*
-        TODO:
-        - Flexbox: Set the starting width of this element
-        - Use relative positioning to bump this upward
-    */
 }
 aside{
     padding: 20px;
     background-color: #eee;
     box-shadow: 5px 5px 8px rgba( 0, 0, 0, 0.3 );
     width: 20%;
+    margin-top: -45px;
 
 
-    /*
-        TODO:
-        - Flexbox: Set the starting width of this element
-        - Use relative positioning to bump this upward
-    */
 }
 aside h3{
     text-align: center;
@@ -151,7 +140,7 @@ article time{
 article img{
     width: 53%;
     float: right;
-    
+
 }
 article footer p{
   border-top: 1px solid #ccc;
