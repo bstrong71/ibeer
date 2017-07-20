@@ -91,7 +91,7 @@ main{
     padding: 20px;
     background-color: #444;
     box-shadow: -5px 5px 8px rgba( 0, 0, 0, 0.3 );
-    width: 50%;
+    width: 55%;
 
 
 
@@ -149,8 +149,9 @@ article time{
     color: #666;
 }
 article img{
-    width: 50%;
+    width: 53%;
     float: right;
+    
 }
 article footer p{
   border-top: 1px solid #ccc;
